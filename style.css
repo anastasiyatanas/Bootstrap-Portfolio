@@ -1,75 +1,62 @@
-header {
-   
-    background: #ffffff;
-    height: 80px;
-    border-bottom-style: solid;
-    border-bottom-color:  #cccccc;
-    border-bottom-width: 1px;
-    margin-bottom: 20px;
+.navbar {
+    justify-content: space-between;
+    padding: 0;
+    background-color: #ffffff;
 }
 
-
+#img { 
+    width: 75%;
+    height: 200px;
+}
 .name {
-    float: left;
+    position: relative;
+    left: 13%;
     color: white;
     background: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 20px;
-    margin: 0%;
-    padding: 29px;
-    position: relative;
-    left: 11%;
+    font-size: 30px;
+    padding: 30px;
 }
 
 
-#name2 {
+.name2 {
     background: white;
     color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 20px;
-    margin: 0%;
-    padding: 13px;
-
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 
 .top {
     float: right;
-    width: 70px;
+    padding: 15px;
+    position: relative;
+    left: -55%;
+    top: 30%;
+    color:black;
     background: white;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    position: relative;
-    left: -10%;
-    top: 30%;
 }
 
 
 
 body {
     margin: 0px;
-    background-image: url("images/dust_scratches.png");
-
-}
-.pic {
-    height: 200px;
-    padding: 20px;
-    float: left;
-    margin-right: 20px;
+    background-image: url("pictures/dust_scratches.png");
 }
 
 
 
 
-.section1 {
-    background: #ffffff;
-    padding: 15px;
+
+.jumbotron {
     margin: 0 auto;
     width: 960px;
+    background: #ffffff;
     border: 1px solid #dddddd;
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-
 }
 
 
@@ -87,11 +74,7 @@ footer {
     width: 100%;
 }
 
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
+
 
 
 .namecontact {
@@ -126,7 +109,7 @@ footer {
 }
 .container {
    
-    width: 580px;
+   
     resize: vertical;  
     
     border-radius: 4px; 
@@ -149,4 +132,4 @@ font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     float: left;
     margin-right: 20px;
 
-}
+} 
